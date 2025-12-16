@@ -14,12 +14,12 @@
         body {
             font-family: 'Arial', sans-serif;
             background: linear-gradient(135deg, #FFE5E5 0%, #FFDAB9 50%, #FFF5E6 100%);
+            background-attachment: fixed;
             min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: auto;
             position: relative;
+            padding: 40px 20px;
         }
 
         .container {
@@ -27,6 +27,8 @@
             color: #333;
             z-index: 10;
             padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
 
         h1 {
